@@ -1,0 +1,24 @@
+.search-button:hover {
+    background-color: rgb(85, 122, 170); /* Cambia el color de fondo al pasar el mouse */
+}
+.search-bar-container {
+    display: flex;
+    align-items:center;
+    margin-left: 100px; /* Ajusta el margen izquierdo según tu preferencia */
+}
+
+.input-searchBar {
+    border: none;
+    background-color: #a1abbd;
+    height: 100%;
+    padding: 10px;
+    margin-right: 10px; /* Ajusta el margen derecho según tu preferencia */
+}
+
+.search-button {
+    border: none;
+    background-color: #7abad8; /* Cambia el color de fondo según tu preferencia */
+    color: white;
+    padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
+    cursor: pointer;
+}

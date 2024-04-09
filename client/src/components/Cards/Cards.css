@@ -1,0 +1,39 @@
+.cardsContainer{
+    display: flex;
+    align-items: center;
+
+    top: 72px;
+
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    margin-top: 40px;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 33px;
+}
+
+.buttonsContainer button{
+    width: 4px;
+    height: 33px;
+    padding: 7px 13px 10px 5px;
+}
+
+.centerCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    left: 1.5%;
+    right: 1.5%;
+    height: 100%;
+
+    top: 0;
+    gap: 10px;
+
+    position: absolute;
+}
